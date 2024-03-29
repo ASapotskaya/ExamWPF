@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exam_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="800" ResizeMode="NoResize">
+        Title="Онлайн-Учебник по астрономии" Height="500" Width="800" ResizeMode="NoResize" >
+    <Window.Background>
+        <ImageBrush/>
+    </Window.Background>
+
     <Grid >
         <Image Source="start.png" Stretch="Fill"/>
         <Label Content="Добро пожаловать в онлайн-учебник по астрономии!" Margin="125,80,87,334" FontSize="22" Foreground="DarkBlue" FontFamily="Comic Sans MS"   Height="57" Background="{x:Null}"/>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exam_WPF"
         mc:Ignorable="d"
-        Title="Test" Height="450" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize">
+        Title="Тест" Height="450" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize">
     <Grid>
 
         <Image Source="start.png" Stretch="Fill"/>
