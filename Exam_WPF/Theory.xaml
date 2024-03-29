@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exam_WPF"
         mc:Ignorable="d"
-        Title="Theory" Height="486" Width="808">
+        Title="Theory" Height="486" Width="808" ResizeMode="NoResize">
     <FlowDocumentReader>
         <FlowDocument>
 

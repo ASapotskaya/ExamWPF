@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exam_WPF"
         mc:Ignorable="d"
-        Title="Test" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="Test" Height="450" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize">
     <Grid>
 
         <Image Source="start.png" Stretch="Fill"/>
-        <Label x:Name="label1" Margin="201,28,167,315"/>
+        <Label x:Name="label1" Margin="123,28,113,315"/>
         <Label x:Name="label2" Margin="201,84,141,186" FontSize="22"/>
         <RadioButton x:Name="radioButton1" Margin="208,107,314,279" Height="30" Width="200" Checked="radioButton1_Checked"></RadioButton>
         <RadioButton x:Name="radioButton2" Margin="208,145,314,237" Height="30" Width="200" Checked="radioButton2_Checked"/>

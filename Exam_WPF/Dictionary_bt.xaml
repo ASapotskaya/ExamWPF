@@ -8,8 +8,18 @@
     </ControlTemplate>
     <Style TargetType="{x:Type Button}">
         <Setter Property="FontSize" Value="22"/>
+        <Setter Property="FontFamily" Value="Comic Sans MS"/>
         <Setter Property="Template" Value="{StaticResource Bt}"/>
         <Setter Property="Background" Value="Lavender"/>
         <Setter Property="BorderBrush" Value="Purple"/>
     </Style>
+    <Style TargetType="{x:Type Label}">
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontFamily" Value="Comic Sans MS"/>
+    </Style>
+    <Style TargetType="{x:Type RadioButton}">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Comic Sans MS"/>
+    </Style>
+    
 </ResourceDictionary>
