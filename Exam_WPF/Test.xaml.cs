@@ -157,6 +157,8 @@ namespace Exam_WPF
                     Str = Str + array[i] + "\n";
 
                 srw.Write(Str);
+                
+
                 srw.Close();
                 if (wrong_answers != 0) MessageBox.Show(
                                           Str, "Тестирование завершено");
