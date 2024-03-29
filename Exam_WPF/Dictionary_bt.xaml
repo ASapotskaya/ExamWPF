@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ControlTemplate x:Key="Bt" TargetType="{x:Type Button}">
+        <Grid>
+            <Ellipse Height="100" Width="250"  Stroke="{TemplateBinding BorderBrush}" Fill="{TemplateBinding Background}"/>
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+    </ControlTemplate>
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="Template" Value="{StaticResource Bt}"/>
+        <Setter Property="Background" Value="Lavender"/>
+        <Setter Property="BorderBrush" Value="Purple"/>
+    </Style>
+</ResourceDictionary>
